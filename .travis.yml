@@ -1,10 +1,13 @@
 language: node_js
-node_js:
-  - 8
-  - 10
-  - 12
 notifications:
   email: false
-script:
-  - npm t
-  - $(npm bin)/codecov
+matrix:
+  include:
+    - node_js: 8
+      script:
+        - npm t
+        - $(npm bin)/codecov
+    - node_js: 10
+      script: npm t
+    - node_js: 12
+      script: npm t
