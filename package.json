@@ -1,0 +1,70 @@
+{
+  "name": "@tanem/remove-source-map-url-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A webpack plugin that removes source map URLs.",
+  "author": "Tane Morgan (https://github.com/tanem)",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "homepage": "https://github.com/tanem/remove-source-map-url-webpack-plugin",
+  "bugs": "https://github.com/tanem/remove-source-map-url-webpack-plugin/issues",
+  "repository": "github:tanem/remove-source-map-url-webpack-plugin",
+  "keywords": [
+    "javascript",
+    "plugin",
+    "source map",
+    "sourcemap",
+    "sourcemaps",
+    "typescript",
+    "webpack"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.13",
+    "@types/mini-css-extract-plugin": "0.2.1",
+    "@types/webpack": "4.4.32",
+    "@types/webpack-merge": "4.1.5",
+    "@typescript-eslint/eslint-plugin": "1.9.0",
+    "@typescript-eslint/parser": "1.9.0",
+    "css-loader": "2.1.1",
+    "del-cli": "2.0.0",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.3.0",
+    "jest": "24.8.0",
+    "mini-css-extract-plugin": "0.7.0",
+    "npm-run-all": "4.1.5",
+    "ts-jest": "24.0.2",
+    "typescript": "3.5.1",
+    "webpack": "4.33.0",
+    "webpack-cli": "3.3.3",
+    "webpack-merge": "4.2.1"
+  },
+  "scripts": {
+    "authors": "shelljs-authors > AUTHORS",
+    "build": "run-s clean compile",
+    "changelog": "github_changelog_generator --no-issues --header-label \"# Changelog\" --future-release v$npm_package_version",
+    "check:format": "prettier --list-different \"**/*.{js,ts}\"",
+    "check:types": "tsc --noEmit",
+    "clean": "run-p clean:*",
+    "clean:coverage": "del coverage",
+    "clean:dist": "del dist",
+    "clean:test": "del test/fixtures/dist",
+    "compile": "tsc -p tsconfig.base.json",
+    "format": "prettier --write \"**/*.{js,ts}\"",
+    "lint": "eslint .",
+    "postversion": "git push && git push --tags && npm publish --access=public",
+    "release": "npm version -m 'Release v%s'",
+    "test": "run-s check:* lint build test:*",
+    "test:cjs": "jest --config ./scripts/jest/config.cjs.js",
+    "test:src": "jest --config ./scripts/jest/config.src.js",
+    "version": "run-s test changelog authors && git add ."
+  }
+}
