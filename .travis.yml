@@ -8,6 +8,8 @@ matrix:
         - npm t
         - $(npm bin)/codecov
     - node_js: 10
-      script: npm t
+      script:
+        - npm t
     - node_js: 12
-      script: npm t
+      script:
+        - npm t
