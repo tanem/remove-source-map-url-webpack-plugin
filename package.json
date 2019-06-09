@@ -9,7 +9,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">= 8"
+    "node": ">=8"
   },
   "homepage": "https://github.com/tanem/remove-source-map-url-webpack-plugin",
   "bugs": "https://github.com/tanem/remove-source-map-url-webpack-plugin/issues",
