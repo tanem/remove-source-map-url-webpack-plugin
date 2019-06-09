@@ -1,6 +1,6 @@
 {
   "name": "@tanem/remove-source-map-url-webpack-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A webpack plugin that removes source map URLs.",
   "author": "Tane Morgan (https://github.com/tanem)",
   "main": "dist/index.js",
