@@ -58,7 +58,7 @@ module.exports = {
 
 ## Installation
 
-> ⚠️This library requires Node.js 8.x or greater.
+> ⚠️This library requires Node.js 8 or greater.
 
 ```
 $ npm install @tanem/remove-source-map-url-webpack-plugin --save-dev
