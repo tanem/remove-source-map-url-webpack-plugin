@@ -1,6 +1,14 @@
 # Changelog
 
-## [v1.0.0](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.0) (2019-06-10)
+## [v1.0.1](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.1) (2019-06-11)
+[Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.0...v1.0.1)
+
+**Merged pull requests:**
+
+- Remove unneeded code [\#7](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/7) ([tanem](https://github.com/tanem))
+- Update typescript-eslint monorepo to v1.10.2 [\#6](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.0](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.0) (2019-06-09)
 **Merged pull requests:**
 
 - Init tasks [\#5](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/5) ([tanem](https://github.com/tanem))
