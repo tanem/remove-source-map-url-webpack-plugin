@@ -1,7 +1,6 @@
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'
 import path from 'path'
 import webpack from 'webpack'
-import RemoveSourceMapUrlWebpackPlugin from '../../src'
 
 const config: webpack.Configuration = {
   devtool: 'source-map',
@@ -21,8 +20,7 @@ const config: webpack.Configuration = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css'
-    }),
-    new RemoveSourceMapUrlWebpackPlugin()
+    })
   ]
 }
 
