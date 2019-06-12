@@ -1,6 +1,15 @@
 # Changelog
 
-## [v1.0.2](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.2) (2019-06-11)
+## [v1.0.3](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.3) (2019-06-13)
+[Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.2...v1.0.3)
+
+**Merged pull requests:**
+
+- Update docs re hidden-source-map [\#11](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/11) ([tanem](https://github.com/tanem))
+- Update dependency css-loader to v3 [\#10](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency webpack-cli to v3.3.4 [\#9](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.2](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.2) (2019-06-10)
 [Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.1...v1.0.2)
 
 **Merged pull requests:**
