@@ -9,11 +9,13 @@
 
 ## The problem
 
-We want to send built files plus their external source maps to third-party monitoring services, but don't want to expose source maps to our clients. We also want to remove source map URLs in a way that plays nicely with other plugins and doesn't require a seperate build.
+You want to send bundled files plus their external source maps to third-party monitoring services, but don't want to expose source maps to browser development tools.
 
 ## This solution
 
 This webpack plugin removes source map URLs from files in the output path when the build is [`done`](https://webpack.js.org/api/compiler-hooks#done).
+
+> 💡Using [`devtool: 'hidden-source-map'`](https://webpack.js.org/configuration/devtool/) is a simpler way of achieving the same result. Try that before reaching for this plugin!
 
 ## Basic Usage
 
