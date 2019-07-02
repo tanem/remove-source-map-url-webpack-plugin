@@ -1,6 +1,26 @@
 # Changelog
 
-## [v1.0.3](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.3) (2019-06-13)
+## [v1.0.4](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.4) (2019-07-02)
+[Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.3...v1.0.4)
+
+**Merged pull requests:**
+
+- Add prettier [\#29](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/29) ([tanem](https://github.com/tanem))
+- Update dev dependencies \(major\) [\#28](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/28) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency webpack-cli to v3.3.5 [\#27](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
+- Reconfigure renovate [\#26](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/26) ([tanem](https://github.com/tanem))
+- Update dependency webpack to v4.35.2 [\#25](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency shelljs-plugin-authors to v2.0.10 [\#24](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/24) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/webpack to v4.4.34 [\#22](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
+- Update typescript-eslint monorepo to v1.11.0 [\#21](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency webpack to v4.35.0 [\#18](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/webpack to v4.4.33 [\#17](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/jest to v24.0.15 [\#16](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency typescript to v3.5.2 [\#14](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @types/jest to v24.0.14 [\#13](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency webpack to v4.34.0 [\#12](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.3](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.3) (2019-06-12)
 [Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.2...v1.0.3)
 
 **Merged pull requests:**
