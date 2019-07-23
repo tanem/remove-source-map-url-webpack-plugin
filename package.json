@@ -27,6 +27,7 @@
     "webpack": "^4.0.0"
   },
   "devDependencies": {
+    "@tanem/github-changelog-generator": "1.0.2",
     "@types/jest": "24.0.15",
     "@types/mini-css-extract-plugin": "0.2.1",
     "@types/webpack": "4.4.34",
@@ -53,7 +54,7 @@
   "scripts": {
     "authors": "shelljs-authors > AUTHORS",
     "build": "run-s clean compile",
-    "changelog": "github_changelog_generator --no-issues --header-label \"# Changelog\" --future-release v$npm_package_version",
+    "changelog": "github-changelog-generator -f v$npm_package_version > CHANGELOG.md",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
     "clean": "run-p clean:*",
