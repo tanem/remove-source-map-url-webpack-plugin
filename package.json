@@ -27,7 +27,6 @@
     "webpack": "^4.0.0"
   },
   "devDependencies": {
-    "@tanem/github-changelog-generator": "1.0.2",
     "@types/jest": "24.0.15",
     "@types/mini-css-extract-plugin": "0.2.1",
     "@types/webpack": "4.32.0",
@@ -43,8 +42,7 @@
     "mini-css-extract-plugin": "0.8.0",
     "npm-run-all": "4.1.5",
     "prettier": "1.18.2",
-    "shelljs": "0.8.3",
-    "shelljs-plugin-authors": "2.0.12",
+    "tanem-scripts": "2.0.0",
     "ts-jest": "24.0.2",
     "typescript": "3.5.3",
     "webpack": "4.36.1",
@@ -52,9 +50,9 @@
     "webpack-merge": "4.2.1"
   },
   "scripts": {
-    "authors": "shelljs-authors > AUTHORS",
+    "authors": "tanem-scripts authors > AUTHORS",
     "build": "run-s clean compile",
-    "changelog": "github-changelog-generator -f v$npm_package_version > CHANGELOG.md",
+    "changelog": "tanem-scripts changelog -f v$npm_package_version > CHANGELOG.md",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
     "clean": "run-p clean:*",
@@ -70,5 +68,6 @@
     "test:cjs": "jest --config ./scripts/jest/config.cjs.js",
     "test:src": "jest --config ./scripts/jest/config.src.js",
     "version": "run-s test changelog authors && git add ."
-  }
+  },
+  "dependencies": {}
 }
