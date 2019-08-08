@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.0.6](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.6) (2019-08-09)
+[Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.5...v1.0.6)
+
+**Merged pull requests:**
+
+- Update dev dependencies [#33](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/33) ([renovate[bot]](https://github.com/apps/renovate))
+- Use tanem-scripts [#34](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/34) ([tanem](https://github.com/tanem))
+
 ## [v1.0.5](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.5) (2019-07-23)
 [Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.4...v1.0.5)
 
