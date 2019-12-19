@@ -64,7 +64,7 @@
     "release": "tanem-scripts release",
     "test": "run-s check:* lint build test:*",
     "test:cjs": "jest --config ./scripts/jest/config.cjs.js",
-    "test:src": "jest --config ./scripts/jest/config.src.js",
+    "test:src": "jest --config ./scripts/jest/config.src.js"
   },
   "dependencies": {}
 }
