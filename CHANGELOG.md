@@ -1,5 +1,32 @@
 # Changelog
 
+## [v1.0.13](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.13) (2020-01-04)
+[Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.12...v1.0.13)
+
+#### :house: Internal
+
+- [#70](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/70) Update typescript-eslint monorepo to v2.14.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#68](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/68) Update dependency webpack to v4.41.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#65](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/65) Update dependency eslint-config-prettier to v6.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#69](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/69) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#66](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/66) Update dependency @types/jest to v24.0.25 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#67](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/67) Update dependency tanem-scripts to v5.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#64](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/64) Update typescript-eslint monorepo to v2.13.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#54](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/54) Update dependency mini-css-extract-plugin to v0.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#62](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/62) Update dependency typescript to v3.7.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#61](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/61) Update dependency eslint to v6.8.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#63](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/63) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#58](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/58) Update dependency webpack to v4.41.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#47](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/47) Update dependency @types/jest to v24.0.24 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#51](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/51) Update dependency css-loader to v3.4.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#60](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/60) Update typescript-eslint monorepo to v2.12.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#59](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/59) Update dependency webpack-cli to v3.3.10 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#57](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/57) Update dependency typescript to v3.7.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#56](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/56) Update dependency ts-jest to v24.2.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#55](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/55) Update dependency prettier to v1.19.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#53](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/53) Update dependency eslint-config-prettier to v6.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#52](https://github.com/tanem/remove-source-map-url-webpack-plugin/pull/52) Update dependency eslint to v6.7.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.0.12](https://github.com/tanem/remove-source-map-url-webpack-plugin/tree/v1.0.12) (2019-12-19)
 [Full Changelog](https://github.com/tanem/remove-source-map-url-webpack-plugin/compare/v1.0.11...v1.0.12)
 
